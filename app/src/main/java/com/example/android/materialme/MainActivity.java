@@ -106,6 +106,9 @@ public class MainActivity extends AppCompatActivity {
 
         // Attach the helper to the RecyclerView.
         helper.attachToRecyclerView(mRecyclerView);
+
+        int gridColumnCount =
+                getResources().getInteger(R.integer.grid_column_count);
     }
 
     /**
